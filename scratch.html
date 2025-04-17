@@ -1,0 +1,129 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>this is my scratch page. i still need to connect to my scratch.css Page
+        i'll include links to my professional page and webapp, but still need to style and move them around
+    </p>
+    <a href="index.html">Resume</a>
+    <a href="webapp.html">WebApp Page</a>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scratch Page</title>
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="css/scratch.css">
+</head>
+<body>
+    <!-- Custom background styling will come from your CSS -->
+    <header>
+        <h1>For the Love of Hiking</h1>
+    </header>
+    <nav>
+        <a href="index.html">Professional Resume</a>
+        <a href="webapp.html">Try My WebApp!</a>
+    </nav>
+    
+    <section>
+        <!-- Demonstrate nested lists: an unordered list with an ordered list inside -->
+        <h2 id="anchor">My Personal Hike Rankings</h2>
+        <ul>
+            <li>3 Favorite Hikes I've Completed
+                <ol>
+                    <li>Mt. Olympus (UT)</li>
+                    <li>Provo Peak (UT)</li>
+                    <li>Piestewa Peak (AZ)</li>
+                </ol>
+            </li>
+            <br>
+            <li>Top 3 Hikes I Want to Complete
+                <ol>
+                    <li>Mt. Sneffels (CO)</li>
+                    <li>Mt. Whitney (CA)</li>
+                    <li>Lone Peak (UT)</li>
+                </ol>
+            </li>
+        </ul>
+    </section>
+    
+    <section>
+        <!-- Include an image that you provide (not from the Bootstrap theme) -->
+        <h2>Captured on My Film Camera</h2>
+        <img class="goat-image" src="assets/img/MtGoat.JPG" alt="Mountain Goat">
+        <img class="timp-film" src="assets/img/Timp.JPG" alt="Photograph of Mt. Timpanogas">
+    </section>
+    
+    <section>
+        <!-- Embed a YouTube video -->
+        <h2>Embedded YouTube Video</h2>
+        <iframe width="90%" height="45%" src="https://www.youtube.com/embed/JUh4koZ8Uqw" 
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+    </section>
+    
+    <section>
+        <h2>Interactive Tableau Graph</h2>
+      
+        <!-- BEGIN Tableau embed code (copy exactly as given) -->
+        <div class='tableauPlaceholder' id='viz1744841026036' style='position: relative'>
+          <noscript>
+            <a href='#'>
+              <img alt="Jeff's Hiking Data"
+                   src='https://public.tableau.com/static/images/Hi/Hiking_15757180640610/JeffsHikingData/1_rss.png'
+                   style='border: none' />
+            </a>
+          </noscript>
+          <object class='tableauViz'  style='display:none;'>
+            <param name='host_url'
+                   value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='path'
+                   value='views/Hiking_15757180640610/JeffsHikingData?:language=en-US&:embed=true&:sid=&:redirect=auth' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                   value='https://public.tableau.com/static/images/Hi/Hiking_15757180640610/JeffsHikingData/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+          </object>
+        </div>
+        <script type='text/javascript'>
+          var divElement = document.getElementById('viz1744841026036');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          if ( divElement.offsetWidth > 800 ) {
+            vizElement.style.width='1100px';
+            vizElement.style.height='627px';
+          } else if ( divElement.offsetWidth > 500 ) {
+            vizElement.style.width='1100px';
+            vizElement.style.height='627px';
+          } else {
+            vizElement.style.width='100%';
+            vizElement.style.height='1527px';
+          }
+          var scriptElement = document.createElement('script');
+          scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+        <!-- END Tableau embed code -->
+      
+      </section>
+      
+    <section>
+        <p><a href="#anchor">Go to My Personal Hike Rankings</a></p>
+    </section>
+    <footer>
+        <p>© 2025 Mason Kennard</p>
+    </footer>
+</body>
+</html>

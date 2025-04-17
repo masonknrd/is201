@@ -1,0 +1,63 @@
+/* style for scratch */
+/* Set a custom background color or image for the body */
+body {
+    background-color:rgb(194, 211, 181);  /* A soft light gray */
+    font-family: Arial, sans-serif;
+    color: #694639;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #694639;
+    color:rgb(208, 179, 152);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav {
+    background-color: rgb(208, 179, 152);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(208, 179, 152);
+    background-color: #694639;
+}
+
+/* Section styling (used as a div for positioning content) */
+section {
+    background-color: rgb(227, 236, 220);
+    border: 5px solid rgb(210, 222, 201);
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Example of another div style for specific positioning */
+.div-special {
+    background-color: #d9edf7;
+    padding: 15px;
+    margin: 15px;
+}
+
+.goat-image {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.timp-film {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
